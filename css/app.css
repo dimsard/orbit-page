@@ -104,11 +104,25 @@ section {
 
 /* begin:: About Section */
 #about-section {
-  display: flex;
-  align-items: center;
-  padding: 1rem 3rem;
+  /* display: flex;
+  align-items: center; */
+  padding: 8rem 3rem 1rem;
+
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    div {
+      background-color: whitesmoke;
+      width: 6rem;
+      height: 8rem;
+      border-radius: 1rem;
+      box-shadow: 0rem .5rem 1rem #999;
+    }
+  }
 }
 /* end:: About Section */
+
 /* begin:: Hero Section */
 #hero-section {
   display: flex;
@@ -196,17 +210,17 @@ section {
   border-radius: 999999999999999999rem;
   position: absolute;
   z-index: -1;
-  top: 75vh;
-  left: -15vw;
-  /* top: 50%;
+  /* top: 75vh;
+  left: -15vw; */
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
   /* animation: 60s linear none infinite rotate; */
   /* outline: 0.1rem dashed rgba(var(--light-rgb-code), 0.2); */
   /* outline-offset: 7.5vw; */
   background-color: #fc0;
-  opacity: 0.2;
-  filter: blur(3px);
+  /* opacity: 0.2; */
+  /* filter: blur(3px); */
 }
 
 /* Mercury Orbit */
